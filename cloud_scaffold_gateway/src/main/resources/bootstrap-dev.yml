@@ -1,0 +1,24 @@
+server:
+  port: 8765
+
+spring:
+  application:
+    name: cloud-scaffold-gateway
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+        file-extension: yaml
+      discovery:
+        server-addr: 127.0.0.1:8848
+    loadbalancer:
+      ribbon:
+        enabled: false
+    gateway:
+      discovery:
+        locator:
+          lowerCaseServiceId: true
+          enabled: true
+    sentinel:
+      transport:
+        dashboard: localhost:8080

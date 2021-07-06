@@ -1,0 +1,10 @@
+# Project exclude paths
+/cloud_scaffold_common/target/
+/cloud_scaffold_gateway/target/
+.idea
+cloud_scaffold.iml
+/cloud_scaffold_service/cloud_scaffold_service.iml
+/cloud_scaffold_service/cloud_scaffold_admin/.mvn
+/cloud_scaffold_service/cloud_scaffold_admin/target
+/cloud_scaffold_service/cloud_scaffold_sample/.mvn
+/cloud_scaffold_service/cloud_scaffold_sample/target
